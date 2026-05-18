@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Kamal Joshi Resume</title>
+<style>
+@page {
+  size: Letter;
+  margin: 0.48in 0.55in;
+}
+* { box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  color: #17202a;
+  font-size: 9.2pt;
+  line-height: 1.28;
+  margin: 0;
+}
+h1 {
+  font-size: 21pt;
+  line-height: 1.05;
+  margin: 0 0 3px 0;
+  letter-spacing: 0;
+  color: #0f172a;
+}
+h1 + p {
+  margin: 0 0 4px 0;
+  font-size: 10.4pt;
+  font-weight: 650;
+  color: #25324a;
+}
+h1 + p + p {
+  margin: 0 0 11px 0;
+  color: #334155;
+}
+h2 {
+  font-size: 11pt;
+  margin: 12px 0 5px 0;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #b7c0cc;
+  color: #0f172a;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+h3 {
+  font-size: 10.5pt;
+  margin: 9px 0 2px 0;
+  color: #0f172a;
+}
+p {
+  margin: 2px 0 5px 0;
+}
+ul {
+  margin: 3px 0 7px 0;
+  padding-left: 15px;
+}
+li {
+  margin: 0 0 3.5px 0;
+}
+strong {
+  color: #0f172a;
+}
+a {
+  color: #1f4e79;
+  text-decoration: none;
+}
+code {
+  font-family: "SFMono-Regular", Consolas, monospace;
+  font-size: 0.92em;
+}
+hr {
+  border: 0;
+  border-top: 1px solid #d0d7de;
+  margin: 10px 0;
+}
+/* Keep role headers with their first bullets when the renderer supports it. */
+h3, h3 + p {
+  page-break-after: avoid;
+}
+li {
+  page-break-inside: avoid;
+}
+</style>
+</head>
+<body>
+<h1>Kamal Joshi</h1>
+<p>Senior / Staff Backend &amp; Platform Engineer | Go | AWS | Terraform | Distributed Systems</p>
+<p>Austin, TX | Open to remote-friendly and hybrid roles | Open to relocation for the right opportunity
+kamal2311@gmail.com | linkedin.com/in/kamaljoshiworks | github.com/kamal2311</p>
+<h2>Professional Summary</h2>
+<p>Senior software engineer and technical leader with 18+ years of experience building backend platforms, API gateways, cloud-native services, security products, and enterprise integration systems. Strong in Go, AWS, Terraform, APIs, microservices, authorization, real-time event delivery, and production ownership. Effective where backend systems, infrastructure, customer pressure, and operational risk meet: simplifying complex systems, creating clarity in ambiguous situations, and turning incidents or escalations into durable architecture. Known for anticipating future needs and designing services that prove their value across multiple product cycles. Experienced with AI-assisted engineering workflows using Claude and Codex for implementation, refactoring, test generation, code review, IaC authoring, documentation, debugging, and design exploration.</p>
+<h2>Core Strengths</h2>
+<ul>
+<li>Backend/platform engineering: Go, Java, Spring Boot, REST, gRPC, gRPC-Web, JSON/HTTP APIs, webhooks, microservices, event-driven systems</li>
+<li>Cloud and infrastructure: AWS Lambda, ECS, EKS, S3, SQS/SNS, DynamoDB, AWS Secrets Manager, Terraform modules, Terraform pipelines, multi-account infrastructure</li>
+<li>Security/product domains: API gateways, authorization services, OAuth 2.0, OIDC, third-party integrations, threat analytics, secure coding</li>
+<li>Engineering leadership: technical design, production ownership, incident recovery, customer escalations, cross-team collaboration, mentoring, pragmatic architecture</li>
+<li>Platform operations: multi-region readiness, DLQ recovery, sovereign/GovCloud environments, observability, deployment validation, rate-limit governance</li>
+<li>Full-stack collaboration: TypeScript, JavaScript, Angular, API-driven UI workflows</li>
+</ul>
+<h2>Experience</h2>
+<h3>Cisco</h3>
+<p>Software Engineering Technical Leader<br />
+November 2025 - May 2026 | Austin, TX</p>
+<ul>
+<li>Owned backend/platform systems including API Gateway, Authorization Service, and Third-Party Integrations Service, spanning design, implementation, production support, and cross-team coordination.</li>
+<li>Architected real-time webhook delivery and third-party integration capabilities for Cisco Secure Access, enabling customer-facing alert/security-event delivery and enterprise integrations with Chrome Enterprise Browser, Microsoft Intune, and Jamf Pro.</li>
+<li>Diagnosed and fixed a Jamf / Intune integration issue live during a prospective customer evaluation, helping restore confidence in the product experience and contributing to the customer's purchase decision.</li>
+<li>Prevented security-event message loss during a production webhook incident by identifying a 300k+ message DLQ backlog, quantifying impact across 15 orgs, and redriving messages successfully within 5-10 minutes.</li>
+<li>Drove integrations-svc production readiness across new sovereign and multi-region environments by decomposing a high-risk Terraform rollout into staged changes across ECR, Secrets Manager, DynamoDB streams, SNS, service config, and audit logging, while also validating HA behavior across at least two regions.</li>
+<li>Resolved a customer-scale onboarding failure in the token flow by tracing 250+ appliance registration requests through API key authentication and APIGW rate-limit behavior, unblocking the customer with a targeted mitigation and driving durable fixes around retry/backoff, token reuse, and service ownership.</li>
+<li>Drove cross-service design for customer-selected Splunk and CloudEvents webhook formats across alerts, security events, integrations, and notifications services.</li>
+<li>Led design and delivery of push security events capability using the open CloudEvents standard, delivering alpha on schedule (Nov 2025) with a team of three engineers — a long-awaited product feature enabling real-time security event delivery to customer systems.</li>
+</ul>
+<p>Senior Software Engineer<br />
+January 2021 - November 2025 | Austin, TX</p>
+<ul>
+<li>Advanced Cisco Secure Access / APIX platform capabilities across API gateway, authorization, integrations, and event-delivery domains.</li>
+<li>Grew into production ownership for backend platform services, helping teams reason through API access, customer integrations, operational readiness, and cross-service dependencies.</li>
+<li>Partnered across product, engineering, and operations teams to turn ambiguous platform problems into implementation plans, rollout paths, and production support decisions.</li>
+<li>Applied Go, AWS, Terraform, event-driven patterns, and API gateway concepts to evolve security-platform services and supporting infrastructure.</li>
+<li>Built auth-tools, an internal authorization library adopted across multiple platform services to simplify OAuth/policy enforcement integration.</li>
+<li>Pioneered GitHub Copilot adoption on the engineering team, sharing workflows and driving team-wide uptake ahead of broader Cisco AI tooling initiatives.</li>
+<li>Initiated &#8220;Tip Talk Tue,&#8221; a recurring team knowledge-sharing forum on engineering productivity and security practices.</li>
+<li>Led ISMAP security certification for the APIX platform, coordinating cross-functional compliance requirements and meeting all deadlines.</li>
+<li>Used AI-assisted engineering workflows with Claude and Codex for implementation, debugging, refactoring, test generation, IaC authoring, documentation, and design exploration.</li>
+</ul>
+<h3>Randstad Technologies US at Cisco</h3>
+<p>Senior Software Developer<br />
+March 2015 - January 2021 | Dublin, OH</p>
+<ul>
+<li>Designed and implemented Go-based gRPC and JSON/HTTP APIs for a cloud-native data ingestion platform during the 2020-2021 transition from Java/Spring systems toward Go-based platform services.</li>
+<li>Built API-driven authentication and authorization flows using OIDC, OAuth 2.0, and gRPC-Web interactions.</li>
+<li>Contributed to automatic generation of protocol buffer specs and gRPC APIs from SQL schemas, improving API consistency and reducing repetitive implementation work.</li>
+<li>Designed and implemented a type-assisted search feature for an Active Threat Analytics dashboard, helping security analysts write threat-hunting queries faster and with less friction.</li>
+<li>Developed Spring Boot / Java REST APIs and Angular-based applications for threat awareness and security analytics products, including customer internet-resource registration and authorization workflows.</li>
+<li>Optimized query performance for large IP address ranges and contributed architectural improvements for caching, load balancing, push notifications, and clustered deployments.</li>
+<li>Reduced 100+ OWASP-reported security warnings to zero through secure coding practices, browser security headers, input sanitization, and server-side validation.</li>
+</ul>
+<h3>Earlier Engineering Experience</h3>
+<p>Senior Java Developer / Senior Applications Engineer / Programmer Analyst<br />
+Collabera at Nationwide Financial, Oracle, Cognizant, Universal Software, Anish Infotech | January 2007 - February 2015</p>
+<ul>
+<li>Delivered backend services, internal tools, workflow applications, and integration features across financial services, enterprise content systems, healthcare, insurance, and public-sector domains.</li>
+<li>Turned ambiguous requirements into working product features through rapid prototyping, stakeholder feedback, and cross-team collaboration.</li>
+<li>Built a foundation in Java, REST APIs, service integrations, automation, testing, and maintainable engineering practices before moving into cloud-native security platform work.</li>
+</ul>
+<h2>Selected Technologies</h2>
+<p>Go, Java, Spring Boot, TypeScript, JavaScript, Angular, REST, gRPC, gRPC-Web, OAuth 2.0, OIDC, Kong/API Gateway, AWS Lambda, ECS, EKS, S3, SQS/SNS, DynamoDB, AWS Secrets Manager, Terraform, CI/CD, Microservices, Webhooks, CloudEvents, Event-Driven Architecture, SQL</p>
+<h2>Certifications</h2>
+<ul>
+<li>AWS Certified Solutions Architect - Associate</li>
+<li>AWS Certified Developer - Associate</li>
+<li>MongoDB Certified Java Developer M101J</li>
+<li>Google Cloud Platform Essentials</li>
+</ul>
+<h2>Education</h2>
+<p>Bachelor of Engineering, Information Technology<br />
+Dharmsinh Desai University</p>
+</body>
+</html>
