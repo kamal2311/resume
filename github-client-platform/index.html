@@ -1,0 +1,214 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kamal Joshi — Resume</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+@page {
+  size: Letter;
+  margin: 0.48in 0.55in;
+}
+* { box-sizing: border-box; }
+
+/* Screen wrapper — centers content and adds breathing room */
+@media screen {
+  body {
+    background: #f1f5f9;
+    padding: 2rem 1rem;
+  }
+  .page {
+    max-width: 780px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.10);
+    padding: 2.4rem 2.6rem 2.6rem;
+  }
+}
+
+/* Print — strip screen chrome */
+@media print {
+  body { background: none; padding: 0; }
+  .page { box-shadow: none; border-radius: 0; padding: 0; }
+}
+
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  color: #1e293b;
+  font-size: 9.4pt;
+  line-height: 1.35;
+  margin: 0;
+}
+
+/* Header accent bar (screen only) */
+@media screen {
+  .page-header {
+    border-top: 4px solid #1d4ed8;
+    padding-top: 1.4rem;
+  }
+}
+
+h1 {
+  font-size: 22pt;
+  font-weight: 700;
+  line-height: 1.05;
+  margin: 0 0 4px 0;
+  color: #1d4ed8;
+  letter-spacing: -0.3px;
+}
+h1 + p {
+  margin: 0 0 4px 0;
+  font-size: 10.4pt;
+  font-weight: 600;
+  color: #1e293b;
+}
+h1 + p + p {
+  margin: 0 0 14px 0;
+  color: #475569;
+  font-size: 8.8pt;
+}
+h2 {
+  font-size: 10.2pt;
+  font-weight: 700;
+  margin: 16px 0 6px 0;
+  padding: 0 0 0 9px;
+  border-left: 3px solid #1d4ed8;
+  color: #0f172a;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+}
+h3 {
+  font-size: 10.5pt;
+  font-weight: 600;
+  margin: 10px 0 2px 0;
+  color: #0f172a;
+}
+p {
+  margin: 2px 0 5px 0;
+}
+ul {
+  margin: 3px 0 7px 0;
+  padding-left: 15px;
+}
+li {
+  margin: 0 0 3.5px 0;
+}
+strong {
+  font-weight: 600;
+  color: #0f172a;
+}
+a {
+  color: #1d4ed8;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+code {
+  font-family: "SFMono-Regular", Consolas, monospace;
+  font-size: 0.92em;
+}
+hr {
+  border: 0;
+  border-top: 1px solid #e2e8f0;
+  margin: 10px 0;
+}
+h3, h3 + p {
+  page-break-after: avoid;
+}
+li {
+  page-break-inside: avoid;
+}
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+  .page { padding: 1.4rem 1.2rem; }
+  h1 { font-size: 18pt; }
+}
+</style>
+</head>
+<body>
+<div class="page">
+<div class="page-header">
+<h1>Kamal Joshi</h1>
+<p>Senior Software Engineer — Client Platform | Go | Distributed Systems | Platform Engineering | API Infrastructure</p>
+<p>Austin, TX &nbsp;|&nbsp; Open to remote &nbsp;|&nbsp;
+<a href="mailto:kamal2311@gmail.com">kamal2311@gmail.com</a> &nbsp;|&nbsp;
+<a href="https://linkedin.com/in/kamaljoshiworks" target="_blank">linkedin.com/in/kamaljoshiworks</a> &nbsp;|&nbsp;
+<a href="https://github.com/kamal2311" target="_blank">github.com/kamal2311</a>
+</p>
+</div>
+
+<h2>Professional Summary</h2>
+<p>Senior software engineer and technical leader with 18+ years of experience building and operating production platform services in Go, designing shared platform components, and leading cross-team architecture for distributed systems. Experienced extracting shared libraries from application codebases, facilitating design discussions across product, client, and domain service teams, and owning incident response end-to-end — including postmortems and long-term reliability improvements. Over the last two years I have become genuinely effective at directing AI tools (GitHub Copilot, Claude Code, Codex) to produce safe, testable, readable code across the full SDLC while owning the design, quality bar, and business outcome.</p>
+
+<h2>Core Strengths</h2>
+<ul>
+<li><strong>Platform engineering:</strong> Go production services, gRPC, REST, JSON/HTTP APIs, webhooks, event-driven architecture, shared library extraction and adoption</li>
+<li><strong>Distributed systems:</strong> multi-region HA, SLOs, observability, DLQ recovery, rate-limit governance, deployment validation, rollback planning</li>
+<li><strong>Cloud and infrastructure:</strong> AWS (ECS, EKS, Lambda, SQS/SNS, DynamoDB, Secrets Manager), Terraform modules, Kubernetes, Docker, CI/CD</li>
+<li><strong>API infrastructure:</strong> Kong API Gateway, OAuth 2.0, OIDC, API key management, CloudEvents, enterprise integrations</li>
+<li><strong>Engineering leadership:</strong> cross-team design facilitation, incident response and postmortems, production ownership, mentoring, code review</li>
+<li><strong>AI-assisted SDLC:</strong> daily use of GitHub Copilot, Claude Code, and Codex; pioneered team-wide Copilot adoption; working familiarity with agentic tool patterns (LLM + memory + tool use)</li>
+</ul>
+
+<h2>Experience</h2>
+<h3>Cisco</h3>
+<p><strong>Software Engineering Technical Leader</strong><br>
+November 2025 - May 2026 | Austin, TX</p>
+<ul>
+<li>Owned backend platform services including <strong>API Gateway</strong>, <strong>Authorization Service</strong>, and <strong>Third-Party Integrations Service</strong> — spanning design, implementation, production operations, and cross-team coordination across product, client, and domain teams.</li>
+<li><strong>Extracted and shipped auth-tools</strong>, an internal shared authorization library adopted across multiple platform services, simplifying OAuth/policy enforcement integration and reducing per-service implementation burden.</li>
+<li>Prevented production security-event message loss during a live incident by identifying a <strong>300k+ message DLQ backlog</strong>, quantifying impact across <strong>15 orgs</strong>, and redriving messages successfully within <strong>5–10 minutes</strong> — led postmortem and drove long-term reliability improvements.</li>
+<li>Resolved a customer-scale onboarding failure by tracing <strong>250+ appliance registration requests</strong> through API key authentication and API gateway rate-limit behavior, unblocking the customer and driving durable fixes around retry/backoff, token reuse, and service ownership.</li>
+<li>Led cross-service design for customer-selected <strong>Splunk</strong> and <strong>CloudEvents</strong> webhook output formats across four services — facilitated architecture tradeoff discussions across product, engineering, and domain teams.</li>
+<li>Drove integrations-svc production readiness across <strong>sovereign and multi-region environments</strong> by decomposing a high-risk Terraform rollout into staged changes and validating HA behavior across two or more regions.</li>
+<li>Led design and delivery of push security events capability using the <strong>CloudEvents</strong> standard, delivering <strong>alpha on schedule (Nov 2025)</strong> with a team of three engineers.</li>
+</ul>
+
+<p><strong>Senior Software Engineer</strong><br>
+January 2021 - November 2025 | Austin, TX</p>
+<ul>
+<li>Grew into production ownership for backend platform services; acted as dependable technical anchor for cross-team coordination, design decisions, and incident escalations.</li>
+<li>Implemented <strong>metrics instrumentation and observability</strong> for Authorization Service and Integrations Service, enabling data-informed SLO monitoring and service health decisions.</li>
+<li>Pioneered <strong>GitHub Copilot</strong> adoption across the engineering team ahead of broader Cisco AI initiatives; integrated Claude Code and Codex into daily SDLC workflows including IaC authoring, test generation, and code review.</li>
+<li>Mentored early-in-career engineers through code review, design feedback, and hands-on guidance; initiated &#8220;Tip Talk Tue&#8221; recurring knowledge-sharing forum on engineering productivity.</li>
+<li>Led <strong>ISMAP security certification</strong> for the APIX platform, coordinating cross-functional compliance requirements and meeting all deadlines.</li>
+</ul>
+
+<h3>Randstad Technologies US at Cisco</h3>
+<p><strong>Senior Software Developer</strong><br>
+March 2015 - January 2021 | Dublin, OH</p>
+<ul>
+<li>Designed and implemented <strong>Go-based gRPC and JSON/HTTP APIs</strong> for a cloud-native data ingestion platform; built API-driven authentication and authorization flows using OIDC, OAuth 2.0, and gRPC-Web.</li>
+<li>Contributed to automatic generation of protocol buffer specs and <strong>gRPC APIs</strong> from SQL schemas, improving API consistency and reducing repetitive implementation work.</li>
+<li>Developed <strong>Spring Boot / Java REST APIs</strong> and Angular applications for threat awareness and security analytics products.</li>
+<li>Reduced <strong>100+ OWASP-reported security warnings to zero</strong> through secure coding practices, browser security headers, input sanitization, and server-side validation.</li>
+</ul>
+
+<h3>Earlier Engineering Experience</h3>
+<p><strong>Cognizant</strong>, <strong>Oracle</strong>, <strong>Collabera</strong> | December 2007 - February 2015</p>
+<ul>
+<li>Delivered backend services, internal tools, and integration features across financial services, enterprise content, healthcare, and public-sector domains using Java and REST APIs.</li>
+<li>Built foundational skills in service design, API integrations, testing, and maintainable engineering practices.</li>
+</ul>
+
+<h2>Certifications</h2>
+<ul>
+<li>AWS Certified Solutions Architect - Associate</li>
+<li>AWS Certified Developer - Associate</li>
+<li>MongoDB Certified Java Developer M101J</li>
+<li>Google Cloud Platform Essentials</li>
+</ul>
+
+<h2>Education</h2>
+<p>Bachelor of Engineering, Information Technology<br>
+Dharmsinh Desai University</p>
+
+</div><!-- .page -->
+</body>
+</html>
